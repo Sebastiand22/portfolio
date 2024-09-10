@@ -1,0 +1,276 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style-type: none;
+}
+
+.big-container {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(20, 20, 20);
+  min-height: 100vh;
+  padding: 20px;
+  max-width: 100%;
+  overflow: hidden;
+  gap: 50px;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.header-section {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  background-color: rgb(38, 43, 43);
+  height: 90px;
+  overflow: hidden;
+}
+
+.header-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  max-width: 100%;
+  overflow: hidden;
+  gap: 20px;
+}
+
+.header-list li {
+  font-family: "Handjet", sans-serif;
+  font-size: 50px;
+  color: white; /* Culoare albă pentru text */
+  white-space: nowrap; /* Previne ca textul să treacă pe alt rând */
+  box-sizing: border-box;
+}
+
+.about-container {
+  display: flex;
+  justify-content: flex-start;
+  background-color: rgb(38, 43, 43);
+
+  height: auto;
+  overflow: hidden;
+  padding: 20px;
+}
+
+.about-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  overflow: hidden;
+}
+.about-name {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-size: 15px;
+  margin-top: 20px;
+  color: azure;
+}
+
+.job-position {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-size: 20px;
+  color: azure;
+}
+
+.anime {
+  display: block;
+  width: 100%;
+  height: auto; /* Asigură păstrarea proporțiilor */
+  max-width: 100%;
+
+  /* Asigură că imaginea nu depășește lățimea containerului */
+}
+.anime img {
+  margin-top: 20px;
+  max-width: 100%;
+  height: auto;
+
+  /* Asigură păstrarea proporțiilor */
+}
+
+/* .wrap {
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+  } 
+  
+  .button {
+    min-width: 100px; 
+    display: inline-flex;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1rem;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1.3px;
+    font-weight: 700;
+    color: #313133;
+    background: linear-gradient(90deg, rgba(129,230,217,1) 0%, rgba(79,209,197,1) 100%);
+    border: none;
+    border-radius: 100px; 
+    box-shadow: 8px 8px 16px rgba(1, 1, 1, 0.64); 
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    outline: none;
+    padding: 10px 20px; 
+    position: relative;
+  
+  }
+    */
+
+/* ABOUT ME SECTION */
+
+.description-container {
+  display: flex;
+  justify-content: flex-start;
+  background-color: rgb(38, 43, 43);
+  height: auto;
+  overflow: hidden;
+  padding: 20px;
+}
+
+.description-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  overflow: hidden;
+}
+.pixel-picture {
+  display: block;
+  width: 100%;
+  height: auto; /* Asigură păstrarea proporțiilor */
+  max-width: 100%;
+}
+
+/* Asigură că imaginea nu depășește lățimea containeului */
+
+.pixel-picture img {
+  margin-top: 20px;
+  max-width: 100%;
+  height: auto;
+}
+
+.about-description {
+  color: whitesmoke;
+}
+h2 {
+  color: whitesmoke;
+}
+
+/* RESUME SECTION */
+
+.download-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4fd1c5;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-family: "Arial", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
+
+.download-button:hover {
+  background-color: #38b2ac;
+}
+
+.resume-container {
+  display: flex;
+  justify-content: flex-start;
+  background-color: rgb(38, 43, 43);
+  height: auto;
+  overflow: hidden;
+  padding: 20px;
+}
+
+.resume-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  overflow: hidden;
+}
+.lock-picture {
+  display: block;
+  width: 100%;
+  height: auto; /* Asigură păstrarea proporțiilor */
+  max-width: 100%;
+}
+
+/* Asigură că imaginea nu depășește lățimea containeului */
+
+.lock-picture img {
+  margin-top: 20px;
+  max-width: 100%;
+  height: auto;
+}
+.resume-description {
+  color: whitesmoke;
+}
+
+/* PROJECT SECTION */
+
+.project-container {
+  display: flex;
+  justify-content: flex-start;
+  background-color: rgb(38, 43, 43);
+  height: auto;
+  overflow: hidden;
+  padding: 20px;
+}
+
+.project-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  overflow: hidden;
+}
+
+.background-project {
+  background-image: url("./images/wall.jpg");
+  background-size: cover; /* Asigură că imaginea acoperă întregul div */
+  background-position: center; /* Centrează imaginea în div */
+  background-repeat: no-repeat; /* Evită repetarea imaginii */
+  width: 100%; /* Lățimea div-ului */
+  min-height: 300px;
+}
+
+.project-description {
+  color: azure;
+}
+
+/* CONTACT SECTION */
+
+.contact-container {
+  display: flex;
+  justify-content: flex-start;
+  background-color: rgb(38, 43, 43);
+  height: auto;
+  overflow: hidden;
+  padding: 20px;
+}
+
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  overflow: hidden;
+}
+
+.contact-description {
+  color: white;
+}
