@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaCtn6T4DwnJ8vNJo4QaAOQzA+8HfxipjqXgJ51JJF2b6r5fi4BOsK7qd8"
+      crossorigin="anonymous"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,500i,700,900&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <section class="big-container">
+      <div class="nav-bar navbar navbar-expand-lg">
+        <h2 class="name">Sebastian</h2>
+
+        <!-- Toggle button -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarContent"
+          aria-controls="navbarContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar content -->
+        <nav class="collapse navbar-collapse" id="navbarContent">
+          <ul class="navbar-list navbar-nav ms-auto">
+            <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+            <li class="nav-item">
+              <a href="#services" class="nav-link">About me</a>
+            </li>
+            <li class="nav-item">
+              <a href="#resume" class="nav-link">Resume</a>
+            </li>
+            <li class="nav-item">
+              <a href="#project" class="nav-link">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <!-- HEADER SECTION -->
+      <section class="header-container">
+        <div class="header-section">
+          <span class="header-name">I am Sebastian Dunduc</span>
+          <h2 class="job-position">Frontend Developer</h2>
+
+          <div class="wrap">
+            <button class="button">Contact me</button>
+          </div>
+        </div>
+        <picture class="anime">
+          <source
+            media="(min-width:1280px)"
+            srcset="images/me-laptop-1x.webp 1x, images/me-laptop-2x.webp 2x"
+          />
+          <source
+            media="(min-width:768px)"
+            srcset="images/me-tablet-1x.webp 1x, images/me-tablet-2x.webp 2x"
+          />
+          <source
+            media="(min-width:320px)"
+            srcset="images/me-mobile1x.webp 1x, images/me-mobilee-2x.webp 2x"
+          />
+          <img class="me-photo" src="images/" alt="bye" />
+        </picture>
+      </section>
+
+      <section class="about-container">
+        <div class="about-section">
+          <h2>About me</h2>
+          <span class="about-description"
+            >I'm passionate about frontend development and constantly pushing
+            myself to improve, learning new things every step of the way. When
+            I’m not coding, you’ll find me at a party, balancing pixels by day
+            and beats by night!</span
+          >
+          <picture class="pixel-picture">
+            <source
+              media="(min-width:1280px)"
+              srcset="
+                images/pixel1x-laptop.webp 1x,
+                images/pixel2x-laptop.webp 2x
+              "
+            />
+            <source
+              media="(min-width:768px)"
+              srcset="
+                images/pixel1x-tablet.webp 1x,
+                images/pixel2x-tablet.webp 2x
+              "
+            />
+            <source
+              media="(min-width:320px)"
+              srcset="
+                images/pixel1x-mobile.webp 1x,
+                images/pixel2x-laptop.webp 2x
+              "
+            />
+            <img class="pixel" src="images/pixel1x-tablet.webp" alt="bye" />
+          </picture>
+        </div>
+      </section>
+      <section class="resume-container">
+        <div class="resume-section">
+          <h2>Resume</h2>
+          <span class="resume-description">
+            Hey there! Ready to dive into the details? Want the full story?
+            Download my CV and let's make things official!</span
+          >
+
+          <div class="button-link">
+            <a
+              href="./files/Sebastian Dunduc Resume Romana.pdf"
+              download="CV-Romanian"
+              class="download-button"
+              >Download CV-Romanian</a
+            >
+            <a
+              href="./files/Sebastian Dunduc-Resume English.pdf"
+              download="CV-English"
+              class="download-button"
+              >Download CV-English</a
+            >
+          </div>
+
+          <picture class="lock-picture">
+            <source
+              media="(min-width:1280px)"
+              srcset="
+                images/lock-laptop1x.webp 1x,
+                images/lock-laptop2x.webp 2x
+              "
+            />
+            <source
+              media="(min-width:768px)"
+              srcset="
+                images/lock-tablet1x.webp 1x,
+                images/lock-tablet2x.webp 2x
+              "
+            />
+            <source
+              media="(min-width:320px)"
+              srcset="
+                images/lock-mobile1x.webp 1x,
+                images/lock-mobile2x.webp 2x
+              "
+            />
+            <img class="pixel" src="images/lock-tablet1x.webp" alt="bye" />
+          </picture>
+        </div>
+      </section>
+
+      <section class="project-container">
+        <div class="background-project">
+          <div class="project-section">
+            <h2>Projects</h2>
+            <span class="project-description"
+              >Check out my projects! Click the icons to see live demos on
+              GitHub. Explore and enjoy!</span
+            >
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-container">
+        <div class="contact-section">
+          <h2>Contact</h2>
+
+          <span class="contact-description">to be friends</span>
+          <span class="contact-description">to be mates</span>
+          <span class="contact-description">to be collaborators</span>
+        </div>
+      </section>
+    </section>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-mQ93t9BhWAp+L7R9JZrjo12LDtB6aodL1LkIvS5cBEB9csbXRF5iZZhA5I1tv0yM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

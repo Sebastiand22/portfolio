@@ -1,0 +1,494 @@
+:root {
+  --font-title: "Playfair Display SC", serif;
+  --size-title: 30px;
+  --font-text: "Roboto Serif", serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style-type: none;
+}
+
+.big-container {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(20, 20, 20);
+  min-height: 100vh;
+  padding: 20px;
+  max-width: 100%;
+  overflow: hidden;
+  gap: 50px;
+}
+
+.name {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-size: 30px;
+  background: linear-gradient(
+    37deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(161, 12, 139, 1) 23%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  font-weight: 900;
+  text-align: center;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.name {
+  margin-left: 20px;
+  margin-top: 8px;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active {
+  box-shadow: none; /* Elimină orice umbră de focus */
+}
+.nav-bar {
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+  background-color: #191a1a;
+  border-radius: 4px;
+}
+.navbar-list li {
+  display: inline;
+  margin-left: 20px;
+}
+
+.nav-link {
+  color: white;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out;
+}
+
+.nav-link:hover {
+  color: rgb(75, 78, 78);
+}
+
+/* HEADER SECTION  */
+.header-container {
+  background-color: #191a1a;
+  height: auto;
+  overflow: hidden;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.header-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header-name {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  color: rgb(184, 180, 180);
+  text-align: center;
+}
+
+.job-position {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-size: 30px;
+  font-weight: 900;
+  text-align: center;
+  background: radial-gradient(
+    circle farthest-side at left center,
+    #4e4f51 0%,
+    #c9d6d0 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.wrap {
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button {
+  position: relative; /* Necesare pentru poziționarea absolută a ::before */
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background: linear-gradient(
+    37deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(161, 12, 139, 1) 23%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+
+  overflow: hidden; /* Asigură că ::before nu depășește butonul */
+  text-align: center; /* Asigură alinierea textului */
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+}
+
+/* Ascunde textul butonului */
+
+.button::before {
+  content: "Contact Me";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 16px;
+  color: #fff;
+  white-space: nowrap;
+  transition: opacity 0.1s ease, transform 0.1s ease;
+  z-index: 1; /* Asigură că textul este deasupra altor elemente */
+}
+
+/* Stiluri pentru hover - schimbarea textului */
+.button:hover::before {
+  content: "0762 311 886";
+  opacity: 1; /* Asigură că textul este vizibil */
+  transform: translate(-50%, -50%) rotateX(0deg);
+  color: #000000;
+}
+
+/* Ascunde textul butonului original la hover */
+.button:hover span {
+  opacity: 0;
+}
+
+/* ABOUT ME SECTION */
+
+.about-container {
+  display: flex;
+  justify-content: flex-start;
+  background-color: #191a1a;
+  height: auto;
+  overflow: hidden;
+  padding: 20px;
+  box-shadow: 6px -2px 25px -6px rgba(136, 24, 161, 0.26);
+}
+
+.about-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  overflow: hidden;
+}
+.pixel-picture {
+  display: block;
+  width: 100%;
+  height: auto; /* Asigură păstrarea proporțiilor */
+  max-width: 100%;
+}
+
+/* Asigură că imaginea nu depășește lățimea containeului */
+
+.pixel-picture img {
+  margin-top: 20px;
+  max-width: 100%;
+  height: auto;
+}
+
+.about-description {
+  background-image: url(https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExc2Z3Ymp4NWdmbnRwZmdrdzZ4anRvaDQ3NXBjdzNlc25xc3M3aWdtMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xGrjBxxEBvWTBtkAk4/giphy.webp);
+  background-size: cover;
+  color: transparent;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+  text-transform: uppercase;
+  margin: 10px 0;
+}
+h2 {
+  color: whitesmoke;
+}
+
+/* RESUME SECTION */
+
+.download-button-1 {
+  position: relative; /* Necesare pentru poziționarea absolută a ::before */
+  font-size: 14px;
+  color: #fff;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    37deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(161, 12, 139, 1) 14%,
+    rgba(0, 212, 255, 1) 54%
+  );
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  overflow: hidden;
+  text-align: center;
+}
+.download-button-2 {
+  font-size: 14px;
+  color: #fff;
+  overflow: hidden;
+  background: rgb(161, 12, 139);
+  background: linear-gradient(
+    329deg,
+    rgba(161, 12, 139, 1) 30%,
+    rgba(0, 254, 255, 0.9865196078431373) 79%
+  );
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  overflow: hidden;
+  text-align: center;
+}
+.button-link {
+  display: flex;
+  gap: 10px;
+}
+
+.download-button-2:hover {
+  color: rgb(11, 11, 11);
+}
+.download-button-1:hover {
+  color: rgb(11, 11, 11);
+}
+.resume-container {
+  display: flex;
+  justify-content: flex-start;
+  background-color: #191a1a;
+  height: auto;
+  overflow: hidden;
+  padding: 20px;
+  box-shadow: 6px -2px 25px -6px rgba(136, 24, 161, 0.26);
+}
+
+.resume-section {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  gap: 10px;
+}
+
+/* Asigură că imaginea nu depășește lățimea containeului */
+
+.lock-picture img {
+  max-width: 100%;
+  height: auto;
+}
+.lock-picture:hover {
+  transform: scale(1.2);
+  transition-duration: 0.5s;
+}
+.picture-lock {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.resume-description {
+  color: whitesmoke;
+}
+
+/* PROJECT SECTION */
+
+.project-container {
+  display: flex;
+  justify-content: flex-start;
+  background-color: #191a1a;
+  height: auto;
+  overflow: hidden;
+  padding: 10px;
+  box-shadow: inset;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    37deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(161, 12, 139, 1) 23%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  width: 100%;
+  height: 300px;
+  box-shadow: 6px -2px 25px -6px rgba(136, 24, 161, 0.26);
+}
+
+.project-description {
+  color: azure;
+}
+
+/* Footer SECTION */
+hr {
+  border: 0;
+  margin: 0;
+  height: 1px;
+  background-image: linear-gradient(
+    to right,
+
+    rgba(14, 13, 13, 0.75),
+    rgba(234, 226, 226, 0.832),
+    rgb(60, 58, 58)
+  );
+}
+.footer-container {
+  background-color: rgb(20, 20, 20);
+}
+
+.footer-section {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  overflow: hidden;
+  background-color: rgb(20, 20, 20);
+}
+.support-description {
+  color: wheat;
+  margin: 0;
+}
+
+.contact-details {
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+.development-skills {
+  display: flex;
+  flex-direction: column;
+  line-height: 1;
+  margin-bottom: 5px;
+  color: white;
+}
+
+.dev-description {
+  font-size: 11px;
+}
+
+.black-footer {
+  background-color: black;
+  height: 60px;
+}
+.social-details svg {
+  width: 20px;
+  height: 20px;
+  color: rgb(3, 181, 205);
+  margin-top: 20px;
+  margin-left: 25px;
+}
+.social-details {
+  display: flex;
+  gap: 15px;
+  justify-content: flex-start;
+}
+
+.social-details svg:hover {
+  color: #8105b7;
+  transform: scale(2);
+}
+.support-svg {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.support-svg svg {
+  width: 30px;
+  height: 30px;
+  color: rgb(170, 6, 203);
+}
+
+.support-svg svg:hover {
+  color: rgb(7, 72, 84);
+}
+
+.support-img {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.support-img img {
+  width: 30px;
+  height: 30px;
+}
+.anime {
+  display: none;
+}
+.footer-links {
+  display: none;
+}
+
+/* TABLET DESIGN  */
+
+@media screen and (min-width: 768px) {
+  .anime {
+    display: block;
+    height: auto;
+    max-width: 100%;
+  }
+  .anime img {
+    width: 200px;
+    height: auto;
+  }
+
+  .header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .pixel-picture img {
+    margin: 0;
+  }
+
+  .button-link {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+  }
+
+  .about-resume-container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  .about-container,
+  .resume-container {
+    flex: 1; /* Sau altă valoare pentru a ajusta proporțiile */
+  }
+
+  .about-section,
+  .resume-section {
+    height: 100%; /* Asigură-te că sectionele au înălțime 100% din containerul lor */
+  }
+
+  .footer-section {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+  }
+
+  .social-details svg {
+    width: 20px;
+    height: 20px;
+    color: rgb(3, 181, 205);
+    margin-top: 20px;
+    margin-left: 25px;
+  }
+  
+  .black-footer, .links{display: flex;
+  justify-content:space-between;
+}
+
+  .links{ margin
+  display: flex;
+  gap:20px;
+}
+
+  .footer-links{
+    display: inline
+    
+  }
+}

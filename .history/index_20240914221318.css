@@ -1,0 +1,336 @@
+:root {
+  --font-title: "Playfair Display SC", serif;
+  --size-title: 30px;
+  --font-text: "Roboto Serif", serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style-type: none;
+}
+
+.big-container {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(20, 20, 20);
+  min-height: 100vh;
+  padding: 20px;
+  max-width: 100%;
+  overflow: hidden;
+  gap: 50px;
+}
+
+h2.name {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-size: 30px;
+  font-weight: 900;
+  text-align: center;
+  background: radial-gradient(
+    circle farthest-side at left center,
+    #4e4f51 0%,
+    #c9d6d0 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.name {
+  margin-left: 20px;
+  margin-top: 8px;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active {
+  box-shadow: none; /* Elimină orice umbră de focus */
+}
+.nav-bar {
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+  background-color: #191a1a;
+  border-radius: 4px;
+}
+.navbar-list li {
+  display: inline;
+  margin-left: 20px;
+}
+
+.nav-link {
+  color: white;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out;
+}
+
+.nav-link:hover {
+  color: rgb(75, 78, 78);
+}
+
+/* HEADER SECTION  */
+.header-container {
+  background-color: #191a1a;
+  height: auto;
+  overflow: hidden;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.header-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header-name {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  color: rgb(184, 180, 180);
+  text-align: center;
+}
+
+.job-position {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-size: 30px;
+  font-weight: 900;
+  text-align: center;
+  background: radial-gradient(
+    circle farthest-side at left center,
+    #4e4f51 0%,
+    #c9d6d0 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.anime {
+  display: block;
+  width: 100%;
+  height: auto; /* Asigură păstrarea proporțiilor */
+  max-width: 100%;
+
+  /* Asigură că imaginea nu depășește lățimea containerului */
+}
+.anime img {
+  margin-top: 20px;
+  max-width: 100%;
+  height: auto;
+  display: none;
+
+  /* Asigură păstrarea proporțiilor */
+}
+
+.wrap {
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button {
+  position: relative; /* Necesare pentru poziționarea absolută a ::before */
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background: linear-gradient(
+    90deg,
+    rgb(227, 247, 245) 0%,
+    rgb(17, 18, 18) 100%
+  );
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+
+  overflow: hidden; /* Asigură că ::before nu depășește butonul */
+  text-align: center; /* Asigură alinierea textului */
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+}
+
+/* Ascunde textul butonului */
+
+.button::before {
+  content: "Contact Me";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 16px;
+  color: #fff;
+  white-space: nowrap;
+  transition: opacity 0.1s ease, transform 0.1s ease;
+  z-index: 1; /* Asigură că textul este deasupra altor elemente */
+}
+
+/* Stiluri pentru hover - schimbarea textului */
+.button:hover::before {
+  content: "0762 311 886";
+  opacity: 1; /* Asigură că textul este vizibil */
+  transform: translate(-50%, -50%) rotateX(0deg);
+  color: #000000;
+}
+
+/* Ascunde textul butonului original la hover */
+.button:hover span {
+  opacity: 0;
+}
+
+/* ABOUT ME SECTION */
+
+.about-container {
+  display: flex;
+  justify-content: flex-start;
+  background-color: #191a1a;
+  height: auto;
+  overflow: hidden;
+  padding: 20px;
+  box-shadow: 6px -2px 25px -6px rgba(136, 24, 161, 0.26);
+}
+
+.about-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  overflow: hidden;
+}
+.pixel-picture {
+  display: block;
+  width: 100%;
+  height: auto; /* Asigură păstrarea proporțiilor */
+  max-width: 100%;
+}
+
+/* Asigură că imaginea nu depășește lățimea containeului */
+
+.pixel-picture img {
+  margin-top: 20px;
+  max-width: 100%;
+  height: auto;
+}
+
+.about-description {
+  color: whitesmoke;
+}
+h2 {
+  color: whitesmoke;
+}
+
+/* RESUME SECTION */
+
+.download-button {
+  position: relative; /* Necesare pentru poziționarea absolută a ::before */
+  font-size: 14px;
+  color: #fff;
+  background: linear-gradient(
+    90deg,
+    rgb(50, 51, 51) 0%,
+    rgb(17, 18, 18) 100%
+  );
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  overflow: hidden; /* Asigură că ::before nu depășește butonul */
+  text-align: center; /* Asigură alinierea textului */
+ 
+}
+.button-link{}
+
+.download-button:hover {
+  background-color: #38b2ac;
+}
+
+.resume-container {
+  display: flex;
+  justify-content: flex-start;
+  background-color: #191a1a;
+  height: auto;
+  overflow: hidden;
+  padding: 20px;
+  box-shadow: 6px -2px 25px -6px rgba(136, 24, 161, 0.26);
+}
+
+.resume-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  overflow: hidden;
+  
+}
+.lock-picture {
+  display: block;
+  width: 100%;
+  height: auto; /* Asigură păstrarea proporțiilor */
+  max-width: 100%;
+}
+
+/* Asigură că imaginea nu depășește lățimea containeului */
+
+.lock-picture img {
+  margin-top: 20px;
+  max-width: 100%;
+  height: auto;
+}
+.resume-description {
+  color: whitesmoke;
+}
+
+/* PROJECT SECTION */
+
+.project-container {
+  display: flex;
+  justify-content: flex-start;
+  background-color: #191a1a;
+  height: auto;
+  overflow: hidden;
+  padding: 20px;
+  box-shadow: inset;
+  box-shadow: 6px -2px 25px -6px rgba(136, 24, 161, 0.26);
+}
+
+.project-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  overflow: hidden;
+}
+
+.background-project {
+  background-image: url("./images/wall.jpg");
+  background-size: cover; /* Asigură că imaginea acoperă întregul div */
+  background-position: center; /* Centrează imaginea în div */
+  background-repeat: no-repeat; /* Evită repetarea imaginii */
+  width: 100%; /* Lățimea div-ului */
+  min-height: 300px;
+}
+
+.project-description {
+  color: azure;
+}
+
+/* CONTACT SECTION */
+
+.contact-container {
+  box-shadow: 6px -2px 25px -6px rgba(136, 24, 161, 0.26);
+
+  display: flex;
+  justify-content: flex-start;
+  background-color: #191a1a;
+  height: auto;
+  overflow: hidden;
+  padding: 20px;
+}
+
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  overflow: hidden;
+}
+
+.contact-description {
+  color: white;
+}

@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Sebastian Dunduc - Frontend Developer portfolio showcasing projects, resume, and contact information."
+    />
+    <title>Portfolio - Sebastian Dunduc</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,500i,700,900&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+    integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <section class="big-container">
+      <div class="nav-bar navbar navbar-expand-lg">
+        <h2 class="name">Sebastian</h2>
+
+        <!-- Toggle button -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarContent"
+          aria-controls="navbarContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <svg
+            class="navbar-toggler-svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <rect x="3" y="6" width="18" height="2" fill="grey" />
+            <rect x="3" y="11" width="18" height="2" fill="grey" />
+            <rect x="3" y="16" width="18" height="2" fill="grey" />
+          </svg>
+        </button>
+
+        <!-- Navbar content -->
+        <nav class="collapse navbar-collapse" id="navbarContent">
+          <ul class="navbar-list navbar-nav ms-auto">
+            <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About me</a>
+            </li>
+            <li class="nav-item">
+              <a href="#resume" class="nav-link">Resume</a>
+            </li>
+            <li class="nav-item">
+              <a href="#project" class="nav-link">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <!-- HEADER SECTION -->
+      <section class="header-container" id="home">
+        <div class="header-section">
+          <span class="header-name">I am Sebastian Dunduc</span>
+          <h2 class="job-position">Frontend Developer</h2>
+
+          <div class="wrap">
+            <a href="#contact">
+              <button class="button">
+                <span>Contact Me</span>
+              </button>
+            </a>
+          </div>
+        </div>
+        <picture class="anime">
+          <source
+            media="(min-width:1280px)"
+            srcset="images/me-laptop-1x.webp 1x, images/me-laptop-2x.webp 2x"
+          />
+          <source
+            media="(min-width:768px)"
+            srcset="images/me-tablet-1x.webp 1x, images/me-tablet-2x.webp 2x"
+          />
+          <source
+            media="(min-width:320px)"
+            srcset="images/me-mobile1x.webp 1x, images/me-mobilee-2x.webp 2x"
+          />
+          <img class="me-photo" src="images/" alt="Sebastian Dunduc" />
+        </picture>
+      </section>
+
+      <section class="about-container" id="about">
+        <div class="about-section">
+          <h2>About me</h2>
+          <span class="about-description"
+            >I'm passionate about frontend development and constantly pushing
+            myself to improve, learning new things every step of the way.
+          </span>
+          <picture class="pixel-picture">
+            <source
+              media="(min-width:1280px)"
+              srcset="
+                images/pixel1x-laptop.webp 1x,
+                images/pixel2x-laptop.webp 2x
+              "
+            />
+            <source
+              media="(min-width:768px)"
+              srcset="
+                images/pixel1x-tablet.webp 1x,
+                images/pixel2x-tablet.webp 2x
+              "
+            />
+            <source
+              media="(min-width:320px)"
+              srcset="
+                images/pixel1x-mobile.webp 1x,
+                images/pixel2x-laptop.webp 2x
+              "
+            />
+            <img
+              class="pixel"
+              src="images/pixel1x-tablet.webp"
+              alt="Sebastian Dunduc"
+            />
+          </picture>
+        </div>
+      </section>
+      <!-- RESUME SECTION -->
+      <section class="resume-container" id="resume">
+        <div class="resume-section">
+          <h2>Resume</h2>
+          <span class="resume-description">
+            Hey there! Ready to dive into the details? Want the full story?
+            Download my CV and let's make things official!</span
+          >
+
+          <div class="button-link">
+            <a
+              href="./files/Sebastian Dunduc Resume Romana.pdf"
+              download="CV-Romanian"
+              class="download-button-1"
+              >Download CV-Romanian</a
+            >
+            <a
+              href="./files/Sebastian Dunduc-Resume English.pdf"
+              download="CV-English"
+              class="download-button-2"
+              >Download CV-English</a
+            >
+          </div>
+          <div class="picture-lock">
+            <picture class="lock-picture">
+              <source
+                media="(min-width:1280px)"
+                srcset="
+                  images/lock-laptop1x.webp 1x,
+                  images/lock-laptop2x.webp 2x
+                "
+              />
+              <source
+                media="(min-width:768px)"
+                srcset="
+                  images/lock-tablet1x.webp 1x,
+                  images/lock-tablet2x.webp 2x
+                "
+              />
+              <source
+                media="(min-width:320px)"
+                srcset="
+                  images/lock-mobile1x.webp 1x,
+                  images/lock-mobile2x.webp 2x
+                "
+              />
+              <img
+                class="pixel"
+                src="images/lock-tablet1x.webp"
+                alt="Sebastian Dunduc"
+              />
+            </picture>
+          </div>
+        </div>
+      </section>
+      <!-- PROJECT SECTION -->
+      <section class="project-container" id="project">
+        <div class="background-project">
+          <div class="project-section">
+            <h2>Projects</h2>
+            <span class="project-description"
+              >Check out my projects! Click the icons to see live demos on
+              GitHub. Explore and enjoy!</span
+            >
+          </div>
+        </div>
+      </section>
+      <!-- FOOTER SECTION -->
+      <hr />
+      <section class="footer-container">
+        <div class="footer-section">
+          <div class="support-feedback">
+            
+            <h2>🦾Support & Feedback</h2>
+            <p class="support-description">
+              You can send me feedback regarding my projects, my work, or even
+              about myself. I am always open to constructive input, and your
+              thoughts play an important role in helping me grow and improve in
+              my professional journey. I truly appreciate your support!
+            </p>
+          </div>
+          <div class="footer-details" id="contact">
+            <h2>Contact</h2>
+            <div class="contact-details">
+              <span>e-mail:sebastiandunduc16@gmail.com</span>
+              <span>phone:+40 762 311 886</span>
+              <span>adress: Bucharest Romania </span>
+            </div>
+
+            <div class="social-details">
+              <a
+                href="https://www.instagram.com/ssebastiandd/"
+                class="footer-icon"
+                aria-label="instagram"
+              >
+                <svg>
+                  <use href="./icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/sebastian-dunduc-137aaa234/"
+                class="footer-icon"
+                aria-label="linkedin"
+              >
+                <svg>
+                  <use href="./icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+
+              <a
+                href="https://github.com/Sebastiand22"
+                class="footer-icon"
+                aria-label="github"
+              >
+                <svg>
+                  <use href="./icons.svg#icon-github"></use>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="development">
+
+            <h2>In Development</h2>
+            <div class="development-skills">
+              <span>JavaScript </span>
+              <p class="dev-description">
+                Actively learning JavaScript to improve coding skills.
+              </p>
+              <span>React</span>
+              <p class="dev-description">
+                Focused on mastering React for frontend development
+              </p>
+              <span>Node.js </span>
+              <p class="dev-description">
+                Dedicating time to understand Node.js thoroughly.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <div class="black-footer"></div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
