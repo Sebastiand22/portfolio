@@ -417,6 +417,25 @@ hr {
 .footer-links {
   display: none;
 }
+#myBtn {
+  display: none;
+  position: fixed; /* Fixed/sticky position */
+  bottom: 65px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none;
+  background-color: rgb(135, 8, 78);
+  color: rgb(238, 237, 238); /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 5px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 15px;
+}
+
+#myBtn:hover {
+  background-color: #088183; /* Add a dark-grey background on hover */
+}
 
 /* TABLET DESIGN  */
 
@@ -513,5 +532,25 @@ hr {
 
   .support-svg svg:hover {
     color: #8105b7;
+  }
+
+  #myBtn {
+    display: none;
+    position: fixed; /* Fixed/sticky position */
+    bottom: 65px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none;
+    background-color: rgb(135, 8, 78);
+    color: rgb(238, 237, 238); /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 5px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 15px;
+  }
+
+  #myBtn:hover {
+    background-color: #088183; /* Add a dark-grey background on hover */
   }
 }
