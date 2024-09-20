@@ -62,6 +62,7 @@ li {
 .navbar-list li {
   display: inline;
   margin-left: 20px;
+  margin-right: 15px;
 }
 
 .nav-link {
@@ -223,15 +224,18 @@ h2 {
     rgba(161, 12, 139, 1) 14%,
     rgba(0, 212, 255, 1) 54%
   );
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  overflow: hidden;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: monospace;
+  color: white;
+  padding: 20px;
+  margin-left: 10px;
   text-align: center;
+  cursor: pointer;
 }
 .download-button-2 {
   font-size: 14px;
-  color: #fff;
   overflow: hidden;
   background: rgb(161, 12, 139);
   background: linear-gradient(
@@ -239,11 +243,15 @@ h2 {
     rgba(161, 12, 139, 1) 30%,
     rgba(0, 254, 255, 0.9865196078431373) 79%
   );
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  overflow: hidden;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: monospace;
+  color: white;
+  padding: 20px;
+  margin-left: 10px;
   text-align: center;
+  cursor: pointer;
 }
 .button-link {
   display: flex;
@@ -365,8 +373,10 @@ hr {
 }
 
 .black-footer {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
   background-color: black;
-  height: 60px;
 }
 .social-details svg {
   width: 20px;
@@ -383,7 +393,6 @@ hr {
 
 .social-details svg:hover {
   color: #8105b7;
-  transform: scale(2);
 }
 .support-svg {
   display: flex;
@@ -436,6 +445,9 @@ hr {
 #myBtn:hover {
   background-color: #088183; /* Add a dark-grey background on hover */
 }
+.project-section img {
+  width: 50px;
+}
 
 /* TABLET DESIGN  */
 
@@ -448,6 +460,9 @@ hr {
   .anime img {
     width: 200px;
     height: auto;
+  }
+  .support-svg svg:hover {
+    color: rgb(7, 72, 84);
   }
 
   .header-container {
@@ -497,7 +512,7 @@ hr {
 
   .black-footer {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     padding: 20px;
     background-color: black;
   }
@@ -509,7 +524,7 @@ hr {
   .links {
     display: flex;
     list-style: none;
-    gap: 20px;
+    gap: 9px;
     margin-bottom: 0;
   }
 
@@ -517,21 +532,23 @@ hr {
     font-weight: bold;
     font-size: 16px;
   }
+  .footer-section {
+    display: flex;
+    justify-content: space-between;
+  }
   .support-description {
     font-size: 13px;
     color: white;
+    max-width: 100%;
+    width: 300px;
+    margin: 0;
   }
   .support-feedback {
     margin-bottom: 10px;
   }
-  .support-svg svg {
-    width: 30px;
-    height: 30px;
-    color: rgb(170, 6, 203) !important;
-  }
 
   .support-svg svg:hover {
-    color: #8105b7;
+    color: #044558;
   }
 
   #myBtn {
@@ -552,5 +569,68 @@ hr {
 
   #myBtn:hover {
     background-color: #088183; /* Add a dark-grey background on hover */
+  }
+  
+}
+@media screen and (min-width: 1000px){
+  .cube {
+    width: 200px;
+    height: 200px;
+    margin: 100px auto;
+    position: relative;
+    transform-style: preserve-3d;
+   
+  }
+  .face {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border: 2px solid #07cbfc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    box-shadow: 0px 3px 20px 0px rgba(2, 183, 199, 0.953);
+  }
+
+  .front {
+    transform: translateZ(100px);
+  }
+
+  /* Back face */
+  .back {
+    transform: rotateY(180deg) translateZ(100px);
+  }
+  /* Right face */
+  .right {
+    transform: rotateY(90deg) translateZ(100px);
+  }
+
+  /* Left face */
+  .left {
+    transform: rotateY(-90deg) translateZ(100px);
+  }
+  /* Top face */
+  .top {
+    transform: rotateX(90deg) translateZ(100px);
+  }
+
+  /* Bottom face */
+  .bottom {
+    transform: rotateX(-90deg) translateZ(100px);
+  }
+  /* Keyframe animation for rotation */
+  @keyframes rotate {
+    from {
+      transform: rotateX(0deg) rotateY(0);
+    }
+    to {
+      transform: rotateX(360deg) rotateY(360deg);
+    }
+  }
+
+  /* Apply the rotation animation to the cube */
+  .cube {
+    animation: rotate 9s infinite linear;
   }
 }
