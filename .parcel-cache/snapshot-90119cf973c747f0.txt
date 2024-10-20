@@ -96,7 +96,7 @@
 86C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\.history\index_20240914170147.css133707961074872037 0
 129C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\node_modules\csso\node_modules\css-tree\lib\syntax\config\parser-selector.js133738355667251594 0
 76C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\node_modules\parse-json133738355412881802 1
-56C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\src133739001695982194 1
+56C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\src133739262970127350 1
 114C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\node_modules\csso\node_modules\css-tree\lib\definition-syntax133738355678521468 1
 84C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\node_modules\svgo\lib\svgo.d.ts133738355516514679 0
 86C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\.history\index_20240916221158.css133709875189101978 0
@@ -124,7 +124,6 @@
 86C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\.history\index_20240915181420.css133708868603117564 0
 86C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\node_modules\env-paths\index.d.ts133738355417659001 0
 94C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\node_modules\commander\typings\index.d.ts133738355435072438 0
-67C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\src\index.html133738360418695261 0
 91C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\node_modules\@parcel\rust\package.json133738355476182518 0
 86C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\.history\index_20240915203243.css133708951638107845 0
 107C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\node_modules\caniuse-lite\data\features\audiotracks.js133738355557046280 0
@@ -174,7 +173,7 @@
 117C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\node_modules\@babel\highlight\node_modules\color-name\.npmignore133738355402409842 0
 104C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\node_modules\@swc\helpers\src\_set_prototype_of.mjs133738355703045897 0
 126C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\node_modules\csso\node_modules\css-tree\cjs\utils\create-custom-error.cjs133738355567687825 0
-85C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\dist\lock-laptop1x.22392a22.webp133738362795190592 0
+85C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\dist\lock-laptop1x.22392a22.webp133739022695228527 0
 99C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\node_modules\@parcel\workers\src\childState.js133738355487282829 0
 75C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\node_modules\@trysound133738355388596656 1
 101C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\node_modules\css-tree\lib\syntax\node\AnPlusB.js133738355647624090 0
@@ -849,7 +848,7 @@
 145C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\definition-syntax\parse.js133738355627308405 0
 94C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\node_modules\svgo\plugins\cleanupAttrs.js133738355567468414 0
 87C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\.history\index_20240915005635.html133708245953151431 0
-73C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\dist\me.3773316a.png133738362797185261 0
+73C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\dist\me.3773316a.png133739022704782978 0
 120C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\README.md133738355611580466 0
 82C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\node_modules\tslib\tslib.html133738355417818579 0
 136C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\node_modules\css-select\node_modules\entities\lib\generated\decode-data-html.js.map133738355505763423 0
@@ -994,7 +993,7 @@
 86C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\.history\index_20240914160958.css133707929987211472 0
 99C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\node_modules\source-map-js\lib\mapping-list.js133738355424351112 0
 103C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\node_modules\type-fest\source\set-return-type.d.ts133738355528722023 0
-79C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\dist\index.647f48a4.js.map133738362800815553 0
+79C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\dist\index.647f48a4.js.map133739022706847459 0
 88C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\node_modules\entities\lib\decode.js133738355425687534 0
 86C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\.history\index_20240916225543.css133709901437650435 0
 87C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\.history\index_20240916214530.html133709859306309099 0
@@ -1971,6 +1970,7 @@
 95C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\node_modules\css-select\lib\general.js.map133738355563050236 0
 98C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\node_modules\ordered-binary\.idea\modules.xml133738355459975866 0
 87C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\.history\index_20240914161746.html133707934663838443 0
+63C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\index.html133739017974008301 0
 105C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\node_modules\ordered-binary\.idea\ordered-binary.iml133738355413589895 0
 84C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\node_modules\lmdb\src\windows.c133738355621464029 0
 84C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\node_modules\nullthrows\LICENSE133738355402290095 0
@@ -2449,7 +2449,7 @@
 84C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\node_modules\argparse\README.md133738355432828439 0
 114C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\node_modules\caniuse-lite\data\features\permissions-policy.js133738355715163488 0
 118C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\node_modules\dom-serializer\node_modules\entities\lib\encode.d.ts133738355472891317 0
-80C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\dist\index.61d3354a.css.map133739003992215071 0
+80C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\dist\index.61d3354a.css.map133739022706807567 0
 87C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\.history\index_20240914162915.html133707941553298998 0
 115C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\Makefile133738355497655092 0
 101C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\node_modules\lmdb\dependencies\lz4\lib\README.md133738355654904619 0
@@ -2510,7 +2510,7 @@
 86C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\.history\index_20240914223815.css133708162958680258 0
 98C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\node_modules\lmdb\dependencies\lmdb\libraries133738355453951971 1
 87C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\.history\index_20240915011531.html133708257320136479 0
-99C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\dist\files\Sebastian Dunduc-Resume English.pdf133738362800825524 0
+99C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\dist\files\Sebastian Dunduc-Resume English.pdf133739022713858714 0
 103C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\node_modules\@swc\helpers\cjs\_new_arrow_check.cjs133738355662992994 0
 111C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\node_modules\csso\node_modules\css-tree\lib\utils\clone.js133738355657986441 0
 130C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\node_modules\@swc\helpers\esm\_class_check_private_static_field_descriptor.js133738355671240930 0
@@ -3545,7 +3545,7 @@
 97C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\node_modules\caniuse-lite\data\regions\KH.js133738355704641639 0
 86C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\.history\index_20240912234131.css133706472918103039 0
 87C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\.history\index_20240915010208.html133708249281112313 0
-85C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\dist\lock-tablet2x.56b2870b.webp133738362795240482 0
+85C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\dist\lock-tablet2x.56b2870b.webp133739022695388096 0
 123C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\node_modules\csso\node_modules\css-tree\lib\definition-syntax\parse.js133738355667062112 0
 86C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\.history\index_20240915180637.css133708863979077464 0
 135C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\syntax\node\Ratio.js133738355628076365 0
@@ -4623,7 +4623,7 @@
 86C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\.history\index_20240914161552.css133707933528247760 0
 155C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\syntax\pseudo\common\selectorList.js133738355631407444 0
 99C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\node_modules\caniuse-lite\dist\lib\statuses.js133738355726582946 0
-68C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\dist\index.html133738362797215180 0
+68C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\dist\index.html133739022694430683 0
 100C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\node_modules\caniuse-lite\dist\lib\supported.js133738355729066316 0
 86C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\.history\index_20240916215904.css133709867445781921 0
 95C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\node_modules\caniuse-lite\data\browsers.js133738355603123084 0
@@ -5508,7 +5508,7 @@
 139C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\plugins\removeXMLProcInst.js133738355590875825 0
 117C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\node_modules\@swc\helpers\_\_create_for_of_iterator_helper_loose133738355593778067 1
 107C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\node_modules\@swc\helpers\_\_object_without_properties133738355632983233 1
-76C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\dist\index.61d3354a.css133739003991816098 0
+76C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\dist\index.61d3354a.css133739022694430683 0
 94C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\node_modules\@swc\helpers\_\_create_super133738355595722862 1
 97C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\node_modules\@swc\helpers\_\_new_arrow_check133738355629552405 1
 90C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\node_modules\@swc\helpers\_\_decorate133738355596740149 1
@@ -6614,7 +6614,7 @@
 86C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\.history\index_20240915220948.css133709009885793319 0
 126C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\dist\csstree.js133738355533549123 0
 130C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\dist\csstree.min.js133738355543721911 0
-86C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\dist\pixel2x-tablet.55c2579d.webp133738362793874124 0
+86C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\dist\pixel2x-tablet.55c2579d.webp133739022694909382 0
 124C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\data\index.js133738355588601911 0
 126C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\data\patch.json133738355642268402 0
 86C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\.history\index_20240916235643.css133709938039214032 0
@@ -7134,7 +7134,7 @@
 109C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\node_modules\@parcel\core\src\requests\PackageRequest.js133738355641291018 0
 86C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\.history\index_20240914232129.css133708188898797907 0
 113C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\node_modules\@parcel\core\src\requests\ParcelBuildRequest.js133738355647215171 0
-85C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\dist\lock-mobile2x.c9c69e81.webp133738362793914013 0
+85C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\dist\lock-mobile2x.c9c69e81.webp133739022694939302 0
 114C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\node_modules\@parcel\core\src\requests\WriteBundlesRequest.js133738355662225036 0
 99C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\node_modules\@parcel\core\src\public\Bundle.js133738355592331935 0
 87C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\.history\index_20240915180440.html133708862810127976 0
@@ -7255,7 +7255,7 @@
 120C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\node_modules\@babel\highlight\node_modules\supports-color\readme.md133738355418317238 0
 86C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\.history\index_20240916225559.css133709901592961375 0
 112C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\node_modules\@babel\highlight\node_modules\has-flag\license133738355410069296 0
-76C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\dist\icons.2203e1f7.svg133738362797215180 0
+76C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\dist\icons.2203e1f7.svg133739022689723252 0
 114C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\node_modules\@babel\highlight\node_modules\has-flag\readme.md133738355414337889 0
 121C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\node_modules\@babel\highlight\node_modules\color-name\.eslintrc.json133738355425647642 0
 119C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\node_modules\@babel\highlight\node_modules\color-name\package.json133738355399996234 0
@@ -7787,7 +7787,7 @@
 86C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\.history\index_20240914163907.css133707947474218017 0
 86C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\.history\index_20240914163910.css133707947506679998 0
 86C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\.history\index_20240914163925.css133707947652308175 0
-98C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\dist\files\Sebastian Dunduc Resume Romana.pdf133738362800815553 0
+98C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\dist\files\Sebastian Dunduc Resume Romana.pdf133739022713888658 0
 86C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\.history\index_20240914163935.css133707947753622523 0
 86C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\.history\index_20240914164026.css133707948267837683 0
 86C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\.history\index_20240914164028.css133707948288813420 0
@@ -8040,7 +8040,7 @@
 87C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\.history\index_20240915011513.html133708257137591804 0
 87C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\.history\index_20240914215644.html133708138044763150 0
 87C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\.history\index_20240914215709.html133708138294644036 0
-75C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\dist\logo.cd13699a.svg133738362797215180 0
+75C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\dist\logo.cd13699a.svg133739022689723252 0
 87C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\.history\index_20240914215722.html133708138424763754 0
 87C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\.history\index_20240914215735.html133708138558398874 0
 87C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\.history\index_20240914215757.html133708138773234539 0
@@ -8070,7 +8070,7 @@
 86C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\.history\index_20240915173008.css133708842086057014 0
 86C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\.history\index_20240914220852.css133708145326618652 0
 86C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\.history\index_20240915173012.css133708842120873779 0
-85C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\dist\me-mobilee-2x.01d74f32.webp133738362793744472 0
+85C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\dist\me-mobilee-2x.01d74f32.webp133739022694909382 0
 86C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\.history\index_20240914225856.css133708175368390790 0
 86C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\.history\index_20240914220921.css133708145617289801 0
 86C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\.history\index_20240914225853.css133708175334788073 0
@@ -8328,7 +8328,7 @@
 86C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\.history\index_20240915173358.css133708844387727890 0
 86C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\.history\index_20240915173423.css133708844633911446 0
 86C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\.history\index_20240915173517.css133708845170078647 0
-63C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\dist\files133738362800965153 1
+63C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\dist\files133739022713958449 1
 86C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\.history\index_20240917001236.css133709947565659964 0
 86C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\.history\index_20240915173548.css133708845486872396 0
 86C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\.history\index_20240915173625.css133708845857289578 0
@@ -8428,7 +8428,7 @@
 86C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\.history\index_20240915183857.css133708883380046120 0
 86C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\.history\index_20240915183904.css133708883441857304 0
 86C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\.history\index_20240915183915.css133708883551723436 0
-86C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\dist\pixel1x-tablet.f0698b52.webp133738362793734490 0
+86C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\dist\pixel1x-tablet.f0698b52.webp133739022694909382 0
 86C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\.history\index_20240915183937.css133708883779934519 0
 86C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\.history\index_20240915184026.css133708884266024236 0
 86C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\.history\index_20240915184028.css133708884284331049 0
@@ -8985,26 +8985,10 @@
 85C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\.history\logo_20240912234854.svg133706477340888652 0
 85C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\.history\logo_20240912235104.svg133706478647435005 0
 85C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\.history\logo_20240912235132.svg133706478923679690 0
-66C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\src\index.css133739003987038222 0
+66C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\src\index.css133739022605478527 0
 66C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\src\icons.svg133721953711864749 0
 63C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\src\images133728771015187037 1
-57C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\dist133739003992254919 1
-75C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\dist\index.647f48a4.js133738362793415331 0
-79C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\dist\portfolio.59712999.js133738362793415331 0
-84C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\dist\me-laptop-1x.2f2a5d19.webp133738362793614809 0
-84C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\dist\me-tablet-1x.29a6d4e9.webp133738362793714553 0
-83C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\dist\me-mobile1x.584dda5b.webp133738362793714553 0
-86C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\dist\pixel1x-laptop.74a039fe.webp133738362793714553 0
-86C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\dist\pixel2x-laptop.0ec6469f.webp133738362793864138 0
-86C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\dist\pixel1x-mobile.81b09fc4.webp133738362793894064 0
-85C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\dist\lock-tablet1x.db4040dd.webp133738362793894064 0
-85C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\dist\lock-laptop2x.dbd8f2eb.webp133738362793904045 0
-85C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\dist\lock-mobile1x.bcfd6425.webp133738362793904045 0
-75C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\dist\tool.b5bd5255.png133738362793923986 0
-81C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\dist\ice-cream.b2b69503.webp133738362793993801 0
-84C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\dist\me-laptop-2x.d453391d.webp133738362794801634 0
-84C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\dist\me-tablet-2x.72971bab.webp133738362795120783 0
-83C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\dist\portfolio.59712999.js.map133738362800815553 0
+57C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\dist133739022713280291 1
 61C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\src\.git133739001428245998 1
 73C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\src\.git\description133739001427338432 0
 85C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\src\.git\hooks\commit-msg.sample133739001427458108 0
@@ -9024,3 +9008,19 @@
 69C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\src\.git\objects133739001428255995 1
 74C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\src\.git\objects\pack133739001428245998 1
 77C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\src\modern-normalize.css133708948844708780 0
+75C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\dist\index.647f48a4.js133739022694440643 0
+79C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\dist\portfolio.59712999.js133739022694440643 0
+84C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\dist\me-tablet-1x.29a6d4e9.webp133739022694899409 0
+83C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\dist\me-mobile1x.584dda5b.webp133739022694909382 0
+86C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\dist\pixel1x-laptop.74a039fe.webp133739022694909382 0
+86C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\dist\pixel2x-laptop.0ec6469f.webp133739022694919354 0
+86C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\dist\pixel1x-mobile.81b09fc4.webp133739022694919354 0
+85C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\dist\lock-laptop2x.dbd8f2eb.webp133739022694929385 0
+81C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\dist\ice-cream.b2b69503.webp133739022694939302 0
+75C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\dist\tool.b5bd5255.png133739022694939302 0
+85C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\dist\lock-tablet1x.db4040dd.webp133739022695029068 0
+85C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\dist\lock-mobile1x.bcfd6425.webp133739022695019088 0
+84C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\dist\me-laptop-1x.2f2a5d19.webp133739022695049023 0
+84C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\dist\me-laptop-2x.d453391d.webp133739022695049023 0
+84C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\dist\me-tablet-2x.72971bab.webp133739022695068952 0
+83C:\Users\DUNDUC\Desktop\COURSE\myPortfolio\portfolio\dist\portfolio.59712999.js.map133739022706877435 0
